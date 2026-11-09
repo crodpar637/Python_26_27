@@ -51,8 +51,8 @@ while fila:
     print(fila)
     fila = cursor.fetchone()
 
-# (5, 'DISCOS', 'Discos duros convencionales y SSD')
-descripcion = "Discos duros HDD y SSD"
+# (5, 'DISCOS', 'Discos duros convencionales y SSD ')
+descripcion = "Discos duros HDD y SSD baratos"
 cursor.execute("UPDATE tipo SET descripcion='" + descripcion + "' WHERE idtipo = 5")
 
 # Hacemos commit para grabar los cambios
