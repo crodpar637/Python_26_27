@@ -49,9 +49,9 @@ def analizar_rendimiento_tapas(dicc_tapas):
     return ( list(tapas_popularidad_alta) , promedio_iva , tapa_mayor_importe[0] )    
 
 # MAIN 
-# datos = leer_ventas_tapas()
-# print(datos)
-datos = [('Serranito', 3.5, 25), ('Solomillo al whisky', 4.2, 18), ('Montadito de pringá', 2.8, 32), ('Espinacas con garbanzos', 3.0, 21)]
+datos = leer_ventas_tapas()
+print(datos)
+# datos = [('Serranito', 3.5, 25), ('Solomillo al whisky', 4.2, 18), ('Montadito de pringá', 2.8, 32), ('Espinacas con garbanzos', 3.0, 21)]
 
 estadisticas = calcular_estadisticas_tapas(datos)
 print(estadisticas)
